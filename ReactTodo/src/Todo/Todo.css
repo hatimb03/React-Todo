@@ -1,0 +1,116 @@
+.todoContainer {
+  min-height: 100vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoContainer h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form input {
+  margin-top: 20px;
+  padding-inline: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  color: white;
+  background-color: #04aa6d;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+ul {
+  width: 350px;
+  margin: 0 auto;
+}
+
+ul li {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.checkButton {
+  margin: 20px;
+  outline: none;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.deleteButton {
+  outline: none;
+  background-color: crimson;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* Date and time */
+
+h2 {
+  color: white;
+}
+
+/* Clear all */
+
+.clearAll button {
+  color: rgba(255, 255, 255, 0.726);
+  background-color: crimson;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  margin: 10px;
+  outline: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.726);
+  font-size: 1rem;
+}
+
+.clearAll button:focus {
+  outline: none;
+}
+
+.checkList {
+  text-decoration: line-through;
+}
+
+.notCheckList {
+  text-decoration: none;
+}
